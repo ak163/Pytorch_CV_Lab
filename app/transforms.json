@@ -1,0 +1,58 @@
+{
+    "Grayscale" : {
+        "num_output_channels" : 3
+    },
+    
+    "RandomAffine" : {
+        "degrees" : 10,
+        "translate" : [0.2,0.2]
+    },
+    
+    "RandomHorizontalFlip" : {
+        "p" : 0.5
+    },
+    
+    "RandomPerspective" : {
+        "distortion_scale" : 0.5,
+        "p" : 0.5
+    },
+    
+    "RandomRotation" : {
+        "degrees" : 15
+    },
+    
+    "RandomVerticalFlip" : {
+        "p" : 0.5
+    },
+    
+    "GaussianBlur" : {
+        "kernel_size" : 21
+    },
+    
+    "RandomInvert" : {
+        "p" : 0.5
+    },
+    
+    "RandomPosterize" : {
+        "bits" : 4,
+        "p" : 0.5
+    },
+    
+    "RandomSolarize" : {
+        "threshold" : 128,
+        "p" : 0.5
+    },
+    
+    "RandomAdjustSharpness" : {
+        "sharpness_factor" : 5,
+        "p" : 0.5
+    },
+    
+    "RandomAutocontrast" : {
+        "p" : 0.5
+    },
+    
+    "RandomEqualize" : {
+        "p" : 0.5
+    }
+}

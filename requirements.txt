@@ -1,0 +1,15 @@
+pandas
+seaborn==0.11.2
+matplotlib==3.4.2
+Pillow==8.2.0
+shap 
+wandb==0.12.1
+onnxruntime==1.8.1
+onnxruntime-gpu
+scipy==1.6.3
+streamlit==0.87.0
+nvidia-pyindex
+tritonclient
+geventhttpclient
+pycuda
+ipywidgets
