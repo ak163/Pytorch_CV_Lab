@@ -1,7 +1,8 @@
-Add All General and GPU Optimizations in this:-
+Apply all optimization in "cpu.py" and create a new file "gpu.py"
 
-Example
+Optimizations:-
 
 - CUDA
+- Pytorch Tuning
 - AMP
 - DDP
